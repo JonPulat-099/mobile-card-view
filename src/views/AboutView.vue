@@ -1,4 +1,7 @@
 <script setup>
+import { useRoute } from 'vue-router'
+const route = useRoute()
+const version = route.query?.version || 'v3'
 const cardOptions = [
   {
     title: "Бесплатный выпуск",
@@ -37,7 +40,7 @@ const cardOptions = [
         тренде!
       </p>
       <iframe
-        src="https://3d-card-view.netlify.app/"
+        :src="`https://3d-card-view.netlify.app?version=${version}`"
         frameborder="0"
         class="my-5 w-full aspect-[3/2]"
       ></iframe>
