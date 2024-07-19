@@ -20,6 +20,24 @@ const products = [
     price: '0 UZS',
     color: 'Black',
   },
+  {
+    id: 1,
+    name: 'Карта Visa Start',
+    href: '/view?version=v4',
+    imageSrc: 'https://ru.ipakyulibank.uz/uploads/images/widget/2024/05/widget_1715843113_2633.png.webp',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '0 UZS',
+    color: 'Black',
+  },
+  {
+    id: 1,
+    name: 'Карта Mastercard Virtual (Error)',
+    href: '/view?version=error',
+    imageSrc: 'https://ru.ipakyulibank.uz/uploads/images/widget/2022/10/widget_1666789327_1834.png',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '0 UZS',
+    color: 'Black',
+  },
   // More products...
 ]
 </script>
