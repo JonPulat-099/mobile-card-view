@@ -40,7 +40,7 @@ const cardOptions = [
         тренде!
       </p>
       <iframe
-        :src="`http://localhost:5173?version=${version}`"
+        :src="`https://3d-card-view.netlify.app/?version=${version}`"
         frameborder="0"
         class="my-5 w-full aspect-[3/2]"
       ></iframe>
